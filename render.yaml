@@ -1,8 +1,8 @@
 databases:
-  - name: a-buydb
+  - name: a-buydb  # This is Render's reference name, can keep hyphens
     plan: free
-    databaseName: A-buy
-    user: A-buy
+    databaseName: a_buy  # Changed to underscore
+    user: a_buy_user    # Changed to underscore
 
 services:
   - type: web
